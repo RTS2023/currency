@@ -15,5 +15,10 @@
     ],
     "require": {
         "illuminate/support": "^9.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["\\Currency\\CurrencyServiceProvider"]
+        }
     }
 }
