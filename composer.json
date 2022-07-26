@@ -1,0 +1,19 @@
+{
+    "name": "iulian/currency",
+    "description": "A simple laravel package for a dynamically usage of currencies",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Currency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "iulian",
+            "email": "onofrei.iulian1@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^9.0"
+    }
+}
