@@ -2,6 +2,8 @@
 
 namespace Currency;
 
+use Illuminate\Support\ServiceProvider;
+
 class CurrencyServiceProvider extends ServiceProvider
 {
     public function boot() {
