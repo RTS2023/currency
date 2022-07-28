@@ -102,8 +102,8 @@ if (! function_exists('changeDefaultCurrency')) {
 
     function changeDefaultCurrency($actualDefaultCurrency, $currencyToBeUpdated)
     {
-        $actualDefaultCurrency->update(['default', 0]);
+        $actualDefaultCurrency->update(['default' => 0]);
         
-        return $currencyToBeUpdated->update(['default', 1]);
+        return $currencyToBeUpdated->update(['default' => 1]);
     }
 }
