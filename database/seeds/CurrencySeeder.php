@@ -8,9 +8,9 @@ class CurrencySeeder extends Seeder
 
     public function run()
     {   
-        $data = config('currency.php');
+        $data = Config::get('currency.currencies');
 
-        foreach ($data as $key => $item) {
+        foreach ($data as $item) {
            Currency::updateOrCreate($item);
         } 
     }
