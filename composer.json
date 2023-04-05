@@ -1,5 +1,5 @@
 {
-    "name": "iulian/currency",
+    "name": "rts/currency",
     "description": "A simple laravel package for a dynamically usage of currencies",
     "type": "library",
     "autoload": {
@@ -12,8 +12,8 @@
     },
     "authors": [
         {
-            "name": "iulian",
-            "email": "onofrei.iulian1@gmail.com"
+            "name": "eugen",
+            "email": "eugeniu.luchianov@rts.one"
         }
     ],
     "require": {
